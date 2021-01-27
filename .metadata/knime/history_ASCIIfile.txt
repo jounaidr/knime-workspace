@@ -1,0 +1,4 @@
+file:/C:/Users/jouna/knime-workspace/Tutorials/week_1/iris.data
+C:\Users\jouna\knime-workspace\Tutorials\week_1\iris.data
+knime://knime.workflow/data.all
+knime://knime.workflow/data/sales_2008-2011.csv

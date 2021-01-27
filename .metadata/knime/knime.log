@@ -1,0 +1,215 @@
+2021-01-21 12:54:41,843 : WARN  : ModalContext :  : Node : Color Manager : 0:6 : Column "country" has no nominal values set: execute predecessor or add Binner.
+2021-01-21 13:02:59,602 : WARN  : main :  : Node : CSV Reader : 3:1 : Please specify a path
+2021-01-21 13:17:57,216 : WARN  : main :  : Node : Column Rename : 3:2 : No configuration available
+2021-01-21 13:19:58,712 : WARN  : main :  : ExplorerFileSystemUtils :  :  : At least one of the workflows affected by the operation is still open in the editor and has to be saved first.
+2021-01-21 13:20:06,954 : WARN  : main :  : ExplorerFileSystemUtils :  :  : At least one of the workflows affected by the operation is still open in the editor and has to be saved first.
+2021-01-21 13:21:01,598 : WARN  : main :  : ExplorerFileSystemUtils :  :  : At least one of the workflows affected by the operation is still open in the editor and has to be saved first.
+2021-01-21 13:21:08,948 : WARN  : main :  : ExplorerFileSystemUtils :  :  : At least one of the workflows affected by the operation is still open in the editor and has to be saved first.
+2021-01-21 13:21:13,489 : WARN  : main :  : ExplorerFileSystemUtils :  :  : At least one of the workflows affected by the operation is still open in the editor and has to be saved first.
+2021-01-21 13:21:24,304 : WARN  : main :  : ExplorerFileSystemUtils :  :  : At least one of the workflows affected by the operation is still open in the editor and has to be closed first.
+2021-01-21 13:21:25,811 : WARN  : main :  : LocalWorkspaceContentProvider :  :  : At least one of the workflows affected by the operation is still open in the editor and has to be closed first.
+2021-01-21 13:21:54,914 : WARN  : main :  : Node : CSV Reader : 3:1 : Please specify a path
+2021-01-21 13:22:57,469 : WARN  : main :  : Node : Column Rename : 3:2 : No configuration available
+2021-01-21 13:41:53,878 : WARN  : main :  : WrappedNodeDialog : Column Rename : 3:2 : failed to apply settings: Duplicate column name: 'native-country' on index 14 and 13.
+org.knime.core.node.InvalidSettingsException: Duplicate column name: 'native-country' on index 14 and 13.
+	at org.knime.base.node.preproc.rename.RenameNodeDialogPane.saveSettingsTo(RenameNodeDialogPane.java:299)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:532)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:766)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2021-01-21 13:48:08,179 : WARN  : KNIME-Worker-10-Missing Value 3:4 :  : Node : Missing Value : 3:4 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2021-01-21 13:59:28,797 : WARN  : main :  : Node : Row Filter : 3:5 : No row filter specified
+2021-01-21 14:00:40,405 : WARN  : main :  : Node : GroupBy : 3:6 : No grouping column included. Aggregate complete table.
+2021-01-21 14:00:40,406 : WARN  : main :  : Node : GroupBy : 3:6 : No aggregation column defined
+2021-01-21 14:00:40,406 : WARN  : main :  : Node : GroupBy : 3:6 : No aggregation column defined
+2021-01-21 14:00:40,443 : WARN  : main :  : Node : GroupBy : 3:6 : Please select at least one group or aggregation column
+2021-01-21 14:03:18,537 : WARN  : main :  : Node : RowID : 3:7 : No row key column selected generate a new one
+2021-01-21 14:04:11,812 : WARN  : main :  : Node : RowID : 3:7 : No row key column selected generate a new one
+2021-01-26 20:54:53,135 : WARN  : ModalContext :  : Node : RowID : 0:7 : No row key column selected generate a new one
+2021-01-26 20:59:46,147 : WARN  : main :  : Node : Column Resorter : 0:8 : All columns stay in same order.
+2021-01-26 21:00:57,380 : WARN  : main :  : Node : CSV Writer : 0:9 : Please specify a path
+2021-01-27 14:14:12,211 : WARN  : main :  : Node : Row Filter : 3:2 : No row filter specified
+2021-01-27 14:17:28,317 : WARN  : main :  : Node : Row Filter : 3:3 : No row filter specified
+2021-01-27 14:18:59,513 : WARN  : main :  : Node : Row Filter : 3:4 : No row filter specified
+2021-01-27 14:19:18,470 : WARN  : main :  : Node : Row Filter : 3:4 : No row filter specified
+2021-01-27 14:20:25,762 : WARN  : main :  : Node : Row Filter : 3:5 : No row filter specified
+2021-01-27 14:49:43,687 : WARN  : main :  : Node : Row Filter : 4:2 : No row filter specified
+2021-01-27 14:50:39,638 : WARN  : main :  : Node : CSV Writer : 4:3 : Please specify a path
+2021-01-27 14:51:07,987 : ERROR : SwingWorker-pool-10-thread-5 :  : StatusSwingWorker : CSV Writer : 4:3 : Error while updating status message: Illegal char <:> at index 5: knime://LOCAL/Tutorials/week_1/adult_file_2_clean_data.csv
+java.nio.file.InvalidPathException: Illegal char <:> at index 5: knime://LOCAL/Tutorials/week_1/adult_file_2_clean_data.csv
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:94)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:255)
+	at java.nio.file.Paths.get(Paths.java:84)
+	at org.knime.filehandling.core.connections.local.LocalFileSystem.getPath(LocalFileSystem.java:111)
+	at org.knime.filehandling.core.connections.local.LocalFileSystem.getPath(LocalFileSystem.java:1)
+	at org.knime.filehandling.core.connections.FSFileSystem.getPath(FSFileSystem.java:291)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getPathFromConvenienceFs(FileChooserPathAccessor.java:192)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getOutputPath(FileChooserPathAccessor.java:173)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.writer.DefaultWriterStatusMessageReporter.report(DefaultWriterStatusMessageReporter.java:99)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:107)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at javax.swing.SwingWorker$1.call(SwingWorker.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javax.swing.SwingWorker.run(SwingWorker.java:334)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-27 14:51:12,949 : ERROR : SwingWorker-pool-10-thread-6 :  : StatusSwingWorker : CSV Writer : 4:3 : Error while updating status message: Illegal char <:> at index 5: knime://LOCAL/Tutorials/week_1/
+java.nio.file.InvalidPathException: Illegal char <:> at index 5: knime://LOCAL/Tutorials/week_1/
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:94)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:255)
+	at java.nio.file.Paths.get(Paths.java:84)
+	at org.knime.filehandling.core.connections.local.LocalFileSystem.getPath(LocalFileSystem.java:111)
+	at org.knime.filehandling.core.connections.local.LocalFileSystem.getPath(LocalFileSystem.java:1)
+	at org.knime.filehandling.core.connections.FSFileSystem.getPath(FSFileSystem.java:291)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getPathFromConvenienceFs(FileChooserPathAccessor.java:192)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getOutputPath(FileChooserPathAccessor.java:173)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.writer.DefaultWriterStatusMessageReporter.report(DefaultWriterStatusMessageReporter.java:99)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:107)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at javax.swing.SwingWorker$1.call(SwingWorker.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javax.swing.SwingWorker.run(SwingWorker.java:334)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-27 14:52:21,114 : ERROR : KNIME-Worker-17-CSV Writer 4:5 :  : Node : CSV Writer : 4:5 : Execute failed: Output file 'C:\Users\jouna\knime-workspace\Tutorials\week_1\adult_file_3_male.csv' exists and must not be overwritten due to user settings.
+java.io.IOException: Output file 'C:\Users\jouna\knime-workspace\Tutorials\week_1\adult_file_3_male.csv' exists and must not be overwritten due to user settings.
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.createOutputStream(CSVWriter2NodeModel.java:214)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.writeToFile(CSVWriter2NodeModel.java:166)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:146)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:1)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:576)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1245)
+	at org.knime.core.node.Node.execute(Node.java:1025)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:558)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: java.nio.file.FileAlreadyExistsException: C:\Users\jouna\knime-workspace\Tutorials\week_1\adult_file_3_male.csv
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:81)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at org.knime.filehandling.core.connections.local.LocalFileSystemProvider.newByteChannel(LocalFileSystemProvider.java:175)
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:434)
+	at java.nio.file.Files.newOutputStream(Files.java:216)
+	at org.knime.filehandling.core.connections.FSFiles.newOutputStream(FSFiles.java:133)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.createOutputStream(CSVWriter2NodeModel.java:211)
+	... 16 more
+2021-01-27 14:54:45,690 : WARN  : main :  : Node : CSV Writer : 4:7 : Please specify a path
+2021-01-27 14:55:52,958 : ERROR : KNIME-Worker-20-CSV Writer 4:7 :  : Node : CSV Writer : 4:7 : Execute failed: /Tutorials/week_1/Exercise_group_1/workflow_3/adult_file_5_occupational.csv points to/into a workflow. Cannot write data to a workflow
+java.io.IOException: /Tutorials/week_1/Exercise_group_1/workflow_3/adult_file_5_occupational.csv points to/into a workflow. Cannot write data to a workflow
+	at org.knime.filehandling.core.connections.knimerelativeto.BaseRelativeToFileSystemProvider.newOutputStreamInternal(BaseRelativeToFileSystemProvider.java:98)
+	at org.knime.filehandling.core.connections.knimerelativeto.BaseRelativeToFileSystemProvider.newOutputStreamInternal(BaseRelativeToFileSystemProvider.java:1)
+	at org.knime.filehandling.core.connections.base.BaseFileSystemProvider.newOutputStream(BaseFileSystemProvider.java:460)
+	at java.nio.file.Files.newOutputStream(Files.java:216)
+	at org.knime.filehandling.core.connections.FSFiles.newOutputStream(FSFiles.java:133)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.createOutputStream(CSVWriter2NodeModel.java:211)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.writeToFile(CSVWriter2NodeModel.java:166)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:146)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:1)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:576)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1245)
+	at org.knime.core.node.Node.execute(Node.java:1025)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:558)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2021-01-27 15:08:40,157 : WARN  : main :  : WrappedNodeDialog : Concatenate : 5:6 : failed to apply settings: Invalid suffix: 
+org.knime.core.node.InvalidSettingsException: Invalid suffix: 
+	at org.knime.base.node.preproc.append.row.AppendedRowsNodeModel.validateSettings(AppendedRowsNodeModel.java:419)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:676)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1094)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:922)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:1972)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1082)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:632)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.access$6(WrappedNodeDialog.java:601)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$6.widgetSelected(WrappedNodeDialog.java:507)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3922)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3524)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:199)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:925)
+	at org.knime.workbench.editor2.actions.OpenDialogAction.runOnNodes(OpenDialogAction.java:129)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.runInSWT(AbstractNodeAction.java:174)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction$1.run(AbstractNodeAction.java:160)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4561)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.run(AbstractNodeAction.java:157)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:579)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:413)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3922)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3524)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:176)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+2021-01-27 15:09:40,919 : WARN  : main :  : WorkflowEditorDropTargetListener :  :  : No node factory is registered for handling  "/Tutorials/week_1/iris.data"
+2021-01-27 15:09:57,750 : WARN  : main :  : Node : File Reader : 6:1 : No Settings available.
+2021-01-27 15:14:15,824 : WARN  : main :  : Node : Column Rename : 6:2 : No configuration available
+2021-01-27 15:20:54,960 : WARN  : main :  : Node : Color Manager : 6:5 : Selected column "Species" with default nominal color mapping.
+2021-01-27 15:22:28,572 : WARN  : main :  : Node : Column Resorter : 6:6 : All columns stay in same order.
