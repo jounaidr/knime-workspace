@@ -1,3 +1,5 @@
+knime://LOCAL/Tutorials/week%207/k_values.txt
+knime://LOCAL/Tutorials/week_2/iris.csv
 knime://LOCAL/Tutorials/week_1/adult_file_5_personal.csv
 knime://LOCAL/Tutorials/week_1/adult_file_5_occupational.csv
 knime://LOCAL/Tutorials/week_1/adult_file_3_male.csv
@@ -6,5 +8,3 @@ C:\Users\jouna\knime-workspace\Tutorials\week_1\adult_file_5_personal.csv
 C:\Users\jouna\knime-workspace\Tutorials\week_1\adult_file_5_occupational.csv
 adult_file_5_occupational.csv
 C:\Users\jouna\knime-workspace\Tutorials\week_1\adult_file_3_female.csv
-C:\Users\jouna\knime-workspace\Tutorials\week_1\adult_file_3_male.csv
-knime://LOCAL/Tutorials/week_1/adult_file_2_clean_data.csv

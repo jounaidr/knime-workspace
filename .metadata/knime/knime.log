@@ -213,3 +213,17 @@ org.knime.core.node.InvalidSettingsException: Invalid suffix:
 2021-01-27 15:14:15,824 : WARN  : main :  : Node : Column Rename : 6:2 : No configuration available
 2021-01-27 15:20:54,960 : WARN  : main :  : Node : Color Manager : 6:5 : Selected column "Species" with default nominal color mapping.
 2021-01-27 15:22:28,572 : WARN  : main :  : Node : Column Resorter : 6:6 : All columns stay in same order.
+2021-02-04 16:15:54,611 : WARN  : main :  : WorkflowEditorDropTargetListener :  :  : No node factory is registered for handling  "/Tutorials/week_1/iris.data"
+2021-02-04 16:16:08,481 : WARN  : main :  : WorkflowEditorDropTargetListener :  :  : No node factory is registered for handling  "/Tutorials/week_4/iris.data"
+2021-02-04 16:16:24,247 : WARN  : main :  : Node : File Reader : 3:1 : No Settings available.
+2021-02-04 16:16:27,193 : WARN  : main :  : WorkflowEditorDropTargetListener :  :  : No node factory is registered for handling  "/Tutorials/week_4/iris.data"
+2021-02-04 16:47:00,478 : WARN  : main :  : Node : Entropy Scorer : 3:4 : No auto configuration available
+Please configure in dialog.
+2021-02-25 13:17:33,420 : WARN  : main :  : Node : Table Column to Variable : 3:3 : Auto-guessing: Selected column 'column1'
+2021-02-25 13:23:04,095 : WARN  : main :  : Node : Table Column to Variable : 3:3 : The selected column 'column1' is not part of the input
+2021-02-25 13:23:05,309 : WARN  : main :  : Node : Table Column to Variable : 3:3 : The selected column 'column1' is not part of the input
+2021-02-25 13:23:40,806 : WARN  : main :  : Node : Row Filter : 3:4 : No row filter specified
+2021-02-25 13:23:53,579 : WARN  : KNIME-Worker-12-Table Column to Variable 3:3 :  : Node : Row Filter : 3:4 : No row filter specified
+2021-02-25 13:24:55,030 : WARN  : KNIME-Worker-14-Row Filter 3:4 :  : Node : Row Filter : 3:4 : Node created an empty data table.
+2021-02-25 13:25:07,726 : WARN  : main :  : Node : Row Filter : 3:4 : Column range filter: Input table doesn't contain specified column name
+2021-02-25 13:25:18,706 : WARN  : KNIME-Worker-15-Row Filter 3:4 :  : Node : Row Filter : 3:4 : Node created an empty data table.

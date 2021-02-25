@@ -6,11 +6,11 @@
         "nodes": [
             {
                 "id": "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory#CSV Reader",
-                "nrexecs": 9,
+                "nrexecs": 10,
                 "nrfails": 0,
-                "exectime": 853,
+                "exectime": 919,
                 "nrcreated": 2,
-                "successor": "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory#Concatenate"
+                "successor": "uk.ac.reading.cs.knime.kmeans.KMeansWSSNodeFactory#KMeansWSS"
             },
             {
                 "id": "org.knime.base.node.preproc.rename.RenameNodeFactory#Column Rename",
@@ -30,10 +30,10 @@
             },
             {
                 "id": "org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter",
-                "nrexecs": 7,
+                "nrexecs": 9,
                 "nrfails": 0,
-                "exectime": 198,
-                "nrcreated": 6,
+                "exectime": 203,
+                "nrcreated": 7,
                 "successor": "org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter"
             },
             {
@@ -97,7 +97,7 @@
                 "nrexecs": 1,
                 "nrfails": 0,
                 "exectime": 9,
-                "nrcreated": 1,
+                "nrcreated": 2,
                 "successor": "org.knime.base.node.preproc.rename.RenameNodeFactory#Column Rename"
             },
             {
@@ -131,6 +131,102 @@
                 "exectime": 3,
                 "nrcreated": 1,
                 "successor": "n/a"
+            },
+            {
+                "id": "uk.ac.reading.cs.knime.kmeans.KMeansWSSNodeFactory#KMeansWSS",
+                "nrexecs": 7,
+                "nrfails": 0,
+                "exectime": 173,
+                "nrcreated": 2,
+                "successor": "org.knime.base.node.viz.plotter.scatter.ScatterPlotterNodeFactory#Scatter Plot (local)"
+            },
+            {
+                "id": "org.knime.base.node.viz.plotter.scatter.ScatterPlotterNodeFactory#Scatter Plot (local)",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 5,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.mine.scorer.entrop.NewEntropyNodeFactory#Entropy Scorer",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 8,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.joiner.Joiner2NodeFactory#Joiner"
+            },
+            {
+                "id": "org.knime.base.node.preproc.joiner.Joiner2NodeFactory#Joiner",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.pivot.Pivot2NodeFactory#Pivoting",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.util.sampledata.SampleDataNodeFactory#Data Generator",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 83,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter"
+            },
+            {
+                "id": "org.knime.base.node.io.tablecreator.TableCreator2NodeFactory#Table Creator",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 1,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.flowvariable.tablecoltovariable4.TableColumnToVariable4NodeFactory#Table Column to Variable"
+            },
+            {
+                "id": "org.knime.base.node.flowvariable.tablecoltovariable4.TableColumnToVariable4NodeFactory#Table Column to Variable",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 2,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter"
+            },
+            {
+                "id": "org.knime.base.node.meta.looper.recursive.RecursiveLoopStartNodeFactory#Recursive Loop Start",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.meta.looper.LoopStartCountNodeFactory#Counting Loop Start",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.meta.looper.variable.start.LoopStartVariable2NodeFactory#Table Row To Variable Loop Start",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 2,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.flowvariable.injectvariables.InjectVariablesNodeFactory#Inject Variables (Data)",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 0,
+                "successor": "uk.ac.reading.cs.knime.kmeans.KMeansWSSNodeFactory#KMeansWSS"
             }
         ],
         "metaNodes": {
@@ -138,14 +234,14 @@
         "wrappedNodes": {
         }
     },
-    "uptime": 41605787,
-    "workflowsOpened": 1,
+    "uptime": 26790473,
+    "workflowsOpened": 2,
     "remoteWorkflowsOpened": 0,
     "workflowsImported": 0,
     "workflowsExported": 0,
-    "launches": 3,
+    "launches": 6,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 27399020,
+    "timeSinceLastStart": 17379825,
     "crashes": 0,
     "properlyShutDown": true
 }
